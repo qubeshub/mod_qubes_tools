@@ -29,7 +29,7 @@
  * @license   http://opensource.org/licenses/MIT MIT
  */
 
-namespace Modules\Tools;
+namespace Modules\QubesTools;
 
 use Hubzero\Module\Module;
 use Components\Resources\Models\Entry;
@@ -63,12 +63,12 @@ class Helper extends Module
 		$filters['published'] = \Components\Resources\Models\Entry::STATE_PUBLISHED;
 
 		if ($this->featured)
-		{					
+		{
 			$filters['tag'] = 'featured';
 		}
 
 		$rows = \Components\Resources\Models\Entry::allWithFilters($filters);
-        
+
 		return $rows;
 	}
 

@@ -36,27 +36,27 @@ HUBzero is a registered trademark of Purdue University.
 	<version>1.0</version>
 	<copyright>Copyright 2005-2018 HUBzero Foundation, LLC.</copyright>
 	<license>http://opensource.org/licenses/MIT MIT</license>
-	<description>MOD_TOOLS_XML_DESCRIPTION</description>
+	<description>MOD_QUBES_TOOLS_XML_DESCRIPTION</description>
 	<files>
-		<filename module="mod_tools">mod_tools.php</filename>
+		<filename module="mod_qubes_tools">mod_qubes_tools.php</filename>
 		<filename>index.html</filename>
 		<filename>helper.php</filename>
 		<filename>tmpl/index.html</filename>
 		<filename>tmpl/default.php</filename>
 		<filename>tmpl/_logo.php</filename>
 		<filename>tmpl/_item.php</filename>
-		<filename>assets/css/mod_tools.css</filename>
+		<filename>assets/css/mod_qubes_tools.css</filename>
 	</files>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="moduleclass_sfx" type="text" default="" label="MOD_TOOLS_PARAM_CLASS_LABEL" description="MOD_TOOLS_PARAM_CLASS_DESC" />
-				<field name="view" type="list" default="0" label="MOD_TOOLS_PARAM_VIEW_LABEL" description="MOD_TOOLS_PARAM_VIEW_DESC">
+				<field name="moduleclass_sfx" type="text" default="" label="MOD_QUBES_TOOLS_PARAM_CLASS_LABEL" description="MOD_QUBES_TOOLS_PARAM_CLASS_DESC" />
+				<field name="view" type="list" default="0" label="MOD_QUBES_TOOLS_PARAM_VIEW_LABEL" description="MOD_QUBES_TOOLS_PARAM_VIEW_DESC">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
-				<field name="limit" type="text" default="5" label="MOD_TOOLS_PARAM_LIMIT_LABEL" description="MOD_TOOLS_PARAM_LIMIT_DESC" />
-				<field name="featured" type="list" default="0" label="MOD_TOOLS_PARAM_FEATURED_LABEL" description="MOD_TOOLS_PARAM_FEATURED_DESC">
+				<field name="limit" type="text" default="5" label="MOD_QUBES_TOOLS_PARAM_LIMIT_LABEL" description="MOD_QUBES_TOOLS_PARAM_LIMIT_DESC" />
+				<field name="featured" type="list" default="0" label="MOD_QUBES_TOOLS_PARAM_FEATURED_LABEL" description="MOD_QUBES_TOOLS_PARAM_FEATURED_DESC">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
@@ -64,6 +64,6 @@ HUBzero is a registered trademark of Purdue University.
 		</fields>
 	</config>
 	<languages>
-		<language tag="en-GB">language/en-GB/en-GB.mod_tools.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_qubes_tools.ini</language>
 	</languages>
 </extension>
